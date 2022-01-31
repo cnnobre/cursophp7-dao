@@ -22,11 +22,12 @@ require_once("config.php");
 //echo $usuario;
 /*
 //Criando um novo usuario
-$aluno = new Usuario("aluno", "@lun0");
+$aluno = new Usuario("joao", "!@#$%");
 $aluno->insert();
 echo $aluno;
 */
-
+/*
+//Alterar um usuario
 $usuario = new Usuario();
 
 $usuario->loadById(15);
@@ -34,4 +35,17 @@ $usuario->loadById(15);
 $usuario->update("professor", "!@#$");
 
 echo $usuario
+*/
+
+/*
+//Deleta Usuario
+$usuario = new Usuario();
+
+$usuario->loadById(18);
+
+$usuario->delete();
+
+echo $usuario;
+*/
+
  ?>
